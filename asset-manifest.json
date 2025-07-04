@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/gym_frontend_proj/static/css/main.e8a49e65.css",
-    "main.js": "/gym_frontend_proj/static/js/main.a84049bf.js",
-    "static/media/background.jpg": "/gym_frontend_proj/static/media/background.fed7af55e1d15787316f.jpg",
-    "static/media/gym1.jpg": "/gym_frontend_proj/static/media/gym1.f5a655d27033254bd09e.jpg",
-    "static/media/nitLogo.png": "/gym_frontend_proj/static/media/nitLogo.041a07d3092207bb206e.png",
-    "index.html": "/gym_frontend_proj/index.html",
-    "main.e8a49e65.css.map": "/gym_frontend_proj/static/css/main.e8a49e65.css.map",
-    "main.a84049bf.js.map": "/gym_frontend_proj/static/js/main.a84049bf.js.map"
+    "main.css": "/gym_frontend/static/css/main.7fd64ccd.css",
+    "main.js": "/gym_frontend/static/js/main.ee0816a9.js",
+    "static/media/progile.jpg": "/gym_frontend/static/media/progile.d2a5f238c476abed06d1.jpg",
+    "static/media/background.jpg": "/gym_frontend/static/media/background.fed7af55e1d15787316f.jpg",
+    "static/media/gym1.jpg": "/gym_frontend/static/media/gym1.f5a655d27033254bd09e.jpg",
+    "static/media/nitLogo.png": "/gym_frontend/static/media/nitLogo.041a07d3092207bb206e.png",
+    "index.html": "/gym_frontend/index.html",
+    "main.7fd64ccd.css.map": "/gym_frontend/static/css/main.7fd64ccd.css.map",
+    "main.ee0816a9.js.map": "/gym_frontend/static/js/main.ee0816a9.js.map"
   },
   "entrypoints": [
-    "static/css/main.e8a49e65.css",
-    "static/js/main.a84049bf.js"
+    "static/css/main.7fd64ccd.css",
+    "static/js/main.ee0816a9.js"
   ]
 }
