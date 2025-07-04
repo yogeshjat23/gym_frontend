@@ -15,21 +15,21 @@ import FileUpload from './pages/FileUpload';
 
 const ProtectedRoute = ({ element, ...rest }) => {
   const { isAuthenticated } = useAuth();
-  return isAuthenticated ? element : <Navigate to="/gym_frontend_proj" />;
+  return isAuthenticated ? element : <Navigate to="/gym_frontend" />;
 };
 
 
 const AppRoutes = () => (
  
   <Routes  >
-    <Route path="/gym_frontend_proj" element={<HomePage />} />
-    <Route path="/gym_frontend_proj/dashboard" element={<ProtectedRoute element={<Dashboard />} />} />
-    <Route path="/gym_frontend_proj/about" element={<ProtectedRoute element={<About />} />} />
-    <Route path="/gym_frontend_proj/registration" element={<ProtectedRoute element={<Registration />} />} />
-    <Route path="/gym_frontend_proj/students" element={<ProtectedRoute element={<StudentList />} />} />
-    <Route path="/gym_frontend_proj/login" element={<Login />} /> 
+    <Route path="/gym_frontend" element={<HomePage />} />
+    <Route path="/gym_frontend/dashboard" element={<ProtectedRoute element={<Dashboard />} />} />
+    <Route path="/gym_frontend/about" element={<ProtectedRoute element={<About />} />} />
+    <Route path="/gym_frontend/registration" element={<ProtectedRoute element={<Registration />} />} />
+    <Route path="/gym_frontend/students" element={<ProtectedRoute element={<StudentList />} />} />
+    <Route path="/gym_frontend/login" element={<Login />} /> 
 
-    <Route path="/gym_frontend_proj/export" element={< FileUpload />} />
+    <Route path="/gym_frontend/export" element={< FileUpload />} />
     
   </Routes>
 
