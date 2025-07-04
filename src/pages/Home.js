@@ -94,7 +94,7 @@ const HomePage = () => {
     
       
       <nav>
-        <Link to="/gym_frontend_proj/dashboard">Go to Dashboard</Link>
+        <Link to="/gym_frontend/dashboard">Go to Dashboard</Link>
       </nav>
     </div>
     </div>

@@ -25,16 +25,16 @@ const Navbar = () => {
           <Link to="/gym_frontend_proj" className="navbar-item">Home</Link>
           {isAuthenticated ? (
             <>
-              <Link to="/gym_frontend_proj/dashboard" className="navbar-item">Dashboard</Link>
-              <Link to="/gym_frontend_proj/registration" className="navbar-item">Register</Link>
-              <Link to="/gym_frontend_proj/students" className="navbar-item">List</Link>
-              <Link to="/gym_frontend_proj/about" className="navbar-item" >About</Link>
-              <Link to="/gym_frontend_proj/export" className="navbar-item">Import</Link>
+              <Link to="/gym_frontend/dashboard" className="navbar-item">Dashboard</Link>
+              <Link to="/gym_frontend/registration" className="navbar-item">Register</Link>
+              <Link to="/gym_frontend/students" className="navbar-item">List</Link>
+              <Link to="/gym_frontend/about" className="navbar-item" >About</Link>
+              <Link to="/gym_frontend/export" className="navbar-item">Import</Link>
               <div onClick={logout} className="navbar-item logout" >Logout</div>
             </>
           ) : (
             <>
-             <Link to="/gym_frontend_proj/login" className="navbar-item logout " >Login</Link>
+             <Link to="/gym_frontend/login" className="navbar-item logout " >Login</Link>
             </>
           )}
         </div>
