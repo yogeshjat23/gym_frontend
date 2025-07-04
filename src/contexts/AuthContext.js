@@ -13,7 +13,7 @@ export const AuthProvider = ({ children }) => {
     if (token) {
       setIsAuthenticated(true);
     } else {
-      navigate('/gym_frontend_proj/login'); // Redirect to login if not authenticated
+      navigate('/gym_frontend/login'); // Redirect to login if not authenticated
     }
   }, [navigate]);
 
@@ -22,13 +22,13 @@ export const AuthProvider = ({ children }) => {
     // This example assumes successful login if a token is set.
     localStorage.setItem('authToken', 'your-admin-token'); // Replace with actual token
     setIsAuthenticated(true);
-    navigate('/gym_frontend_proj');
+    navigate('/gym_frontend');
   };
 
   const logout = () => {
     localStorage.removeItem('authToken');
     setIsAuthenticated(false);
-    navigate('/gym_frontend_proj/login');
+    navigate('/gym_frontend/login');
   };
 
   return (
