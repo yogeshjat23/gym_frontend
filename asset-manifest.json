@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/gym_frontend_proj/static/css/main.e8a49e65.css",
+    "main.js": "/gym_frontend_proj/static/js/main.a84049bf.js",
+    "static/media/background.jpg": "/gym_frontend_proj/static/media/background.fed7af55e1d15787316f.jpg",
+    "static/media/gym1.jpg": "/gym_frontend_proj/static/media/gym1.f5a655d27033254bd09e.jpg",
+    "static/media/nitLogo.png": "/gym_frontend_proj/static/media/nitLogo.041a07d3092207bb206e.png",
+    "index.html": "/gym_frontend_proj/index.html",
+    "main.e8a49e65.css.map": "/gym_frontend_proj/static/css/main.e8a49e65.css.map",
+    "main.a84049bf.js.map": "/gym_frontend_proj/static/js/main.a84049bf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e8a49e65.css",
+    "static/js/main.a84049bf.js"
+  ]
+}

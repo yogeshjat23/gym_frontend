@@ -1,0 +1,125 @@
+body {
+  background-image: url('../assets/background.jpg'); 
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.title {
+  margin-top: 70px;
+  text-align: center;
+  color: rgb(247, 247, 247);
+  background-color: maroon;
+}
+
+.home-container {
+  background-color: rgba(255, 255, 255, 0.8); 
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 700px;
+  margin: 200px auto;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  height: 300px;
+}
+
+.home-container h1 {
+  margin-bottom: 20px;
+  color: #333; 
+}
+
+.home-container input {
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 90%;
+  height: 30px;
+  font-size: 20px;
+}
+
+.home-container button {
+  display: block; 
+  padding: 10px 20px;
+  margin-top: 10px;
+  margin-left: 40%;
+  background-color: #007bff; 
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.home-container button:hover {
+  background-color: #0056b3; 
+}
+
+.home-container p {
+  margin-top: 20px;
+  color: #333;
+}
+
+.home-container nav a {
+  display: inline-block;
+  margin-top: 20px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.home-container nav a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .home-container {
+    margin: 150px auto;
+    padding: 15px;
+    max-width: 90%;
+    height: auto;
+  }
+
+  .home-container h1 {
+    font-size: 24px;
+  }
+
+  .home-container input {
+    width: 100%;
+    font-size: 18px;
+  }
+
+  .home-container button {
+    margin-left: 35%;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .title {
+    margin-top: 50px;
+    font-size: 20px;
+  }
+
+  .home-container {
+    margin: 100px auto;
+    padding: 10px;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .home-container h1 {
+    font-size: 20px;
+  }
+
+  .home-container input {
+    font-size: 16px;
+  }
+
+  .home-container button {
+    margin-left: 30%;
+    font-size: 14px;
+  }
+}

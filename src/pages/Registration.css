@@ -1,0 +1,108 @@
+.registration-container {
+  width: 100%;
+  height: 100vh; 
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: #f0f0f0; 
+  padding: 20px;
+}
+
+.registration-container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.registration-container input {
+  display: block;
+  width: 500px;
+  height: 30px;
+  padding: 10px;
+  font-size: 20px;
+  margin-bottom: 15px;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+}
+
+.registration-container select {
+  display: block;
+  width: 520px;
+  font-size: 20px;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+}
+
+.registration-container button {
+  width: 150px;
+  font-size: 20px;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.registration-container button:hover {
+  background-color: #0056b3;
+}
+
+.registration-container p {
+  font-size: 30px;
+  text-align: center;
+  color: red;
+}
+
+.success-message {
+  color: #28a745;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.error-message {
+  color: #dc3545;
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* Media Query for Tablets */
+@media (max-width: 768px) {
+  .registration-container input,
+  .registration-container select {
+    width: 90%;
+    font-size: 18px;
+  }
+
+  .registration-container button {
+    width: 140px;
+    font-size: 18px;
+  }
+
+  .registration-container p {
+    font-size: 25px;
+  }
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+  .registration-container input,
+  .registration-container select {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .registration-container button {
+    width: 130px;
+    font-size: 16px;
+  }
+
+  .registration-container p {
+    font-size: 20px;
+  }
+}

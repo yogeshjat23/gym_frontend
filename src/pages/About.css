@@ -1,0 +1,99 @@
+.container3 {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #1e1e1e;
+  color: white;
+
+  justify-content: space-between;
+  padding: 15px 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+
+  z-index: 1000;
+
+
+}
+.about-container {
+    background-image: url('../assets/gym1.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    margin-top: 100px; 
+
+
+     position: fixed;
+  top: 0;
+  width: 100%;
+  justify-content: space-between;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+
+  z-index: 1000;
+    
+    
+    
+   
+  }
+  
+  
+  
+
+  .profile-card {
+
+  background: #1e1e1e;
+  padding:80px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+  text-align: center;
+  max-width: 600px;
+  margin: auto;
+
+  color: white;
+}
+
+.profile-card h2 {
+  color: white;
+}
+
+.profile-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.profile-role {
+  font-size: 1.2rem;
+  color: #bbb;
+  margin-bottom: 10px;
+  margin-top: 50px;
+
+}
+
+.social-links {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.social-icon {
+  font-size: 30px;
+  transition: 0.3s;
+}
+
+.instagram {
+  color: #e1306c;
+}
+
+.linkedin {
+  color: #0077b5;
+}
+
+.social-icon:hover {
+  transform: scale(1.2);
+}
