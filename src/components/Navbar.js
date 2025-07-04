@@ -22,7 +22,7 @@ const Navbar = () => {
         </h1>
 
         <div className={`navbar-menu ${isOpen ? 'active' : ''}`}>
-          <Link to="/gym_frontend_proj" className="navbar-item">Home</Link>
+          <Link to="/gym_frontend" className="navbar-item">Home</Link>
           {isAuthenticated ? (
             <>
               <Link to="/gym_frontend/dashboard" className="navbar-item">Dashboard</Link>
