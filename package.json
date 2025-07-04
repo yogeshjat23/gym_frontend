@@ -2,7 +2,7 @@
   "name": "my-gym-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://yogeshjat23.github.io/gym_frontend/",
+  "homepage": "https://yogeshjat23.github.io/gym_frontend",
   "proxy": "https://gym-project-backend-1.onrender.com",
   "dependencies": {
     "@handsontable/react": "^14.5.0",
